@@ -15,3 +15,8 @@
 ;; https://www.codewars.com/kata/57f780909f7e8e3183000078/train/clojure
 (defn reduce-multiply [xs]
   (reduce * xs))
+
+;; Grasshopper - Summation
+;; https://www.codewars.com/kata/55d24f55d7dd296eb9000030/train/clojure
+(defn summation [n]
+  (apply + (range 1 (inc n))))
