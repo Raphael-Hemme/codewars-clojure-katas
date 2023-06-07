@@ -10,3 +10,8 @@
 ;; https://www.codewars.com/kata/55f73be6e12baaa5900000d4/train/clojure
 (defn goals [la-liga-goals copa-del-rey-goals champions-league-goals]
   (+ la-liga-goals copa-del-rey-goals champions-league-goals))
+
+;; Reduce but Grow
+;; https://www.codewars.com/kata/57f780909f7e8e3183000078/train/clojure
+(defn reduce-multiply [xs]
+  (reduce * xs))
