@@ -58,5 +58,12 @@
   (expression-matter 5 1 3)
 
 
+  ;; Sum Arrays
+  ;; https://www.codewars.com/kata/53dc54212259ed3d4f00071c/train/clojure
+
+  (defn sum
+    [a]
+    (apply + a))
   
+
   :rcf)
